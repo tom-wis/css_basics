@@ -1,14 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     margin: 0;
 }
 
 #product {
     background: orange;
+    width: 100%;
+    height: 528px;
     padding: 20px;
-    border: 5px black solid;
-    margin: 20px;
 }
 
 .section-title {
@@ -19,6 +22,11 @@ body {
 h1 {
     color: rgb(85, 85, 248);
     font-family: 'Courier New', Courier, sans-serif;
-    font-family: 'Courier New', Courier, sans-serif;
-    font-family: 'Courier New', Courier, sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    background-color: rgb(153, 230, 204);
+    padding: 10px 20px;
+ 
 }
