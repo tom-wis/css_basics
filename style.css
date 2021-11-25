@@ -28,5 +28,17 @@ h1 {
     width: 100%;
     background-color: rgb(153, 230, 204);
     padding: 10px 20px;
- 
+
+}
+
+.main-header>div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
+.main-nav_item {
+    display: inline-block;
 }
