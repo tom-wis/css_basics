@@ -30,16 +30,15 @@ body {
 } */
 .main-header {
     width: 100%;
-<<<<<<< HEAD
+
     background: #2ddf5c;
     padding: 8px 16px;
 }
 
 
-.main-header > div {
+.main-header>div {
     display: inline-block;
     vertical-align: middle;
-=======
     background-color: rgb(153, 230, 204);
     padding: 10px 20px;
 
@@ -47,12 +46,10 @@ body {
 
 .main-header>div {
     display: inline-block;
->>>>>>> 8d6f15ba5d2ffc71c21e7638a14382f6aa39944a
 }
 
 .main-nav {
     display: inline-block;
-<<<<<<< HEAD
     text-align: right;
     width: calc(100% - 74px);
     vertical-align: middle;
@@ -62,7 +59,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
- 
+
 }
 
 .main-header__brand {
@@ -75,10 +72,9 @@ body {
 .main-nav__item {
     display: inline-block;
     margin: 0 16px;
-=======
+
 }
 
 .main-nav_item {
     display: inline-block;
->>>>>>> 8d6f15ba5d2ffc71c21e7638a14382f6aa39944a
 }
