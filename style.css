@@ -48,6 +48,7 @@ body {
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px 8px 8px 8px;
+
 }
 
 .plan__title {
@@ -70,30 +71,54 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 
 .plan__features li {
     margin: 8px 0;
+
 }
 
-.button {
-    background: darkgreen;
+
+#key-features {
+    background: red;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
     color: white;
-    font: inherit;
-    border: 1.5px solid darkgreen;
-    padding: 8px;
-    border-radius: 8px;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: rgb(255, 137, 137);
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
     font-weight: bold;
-    cursor: pointer;
-}
+    color: white;
+    font-size: 20px;
 
-.button:hover, .button:active {
-    background: white;
-    color: darkgreen;
-}
-
-.button:focus {
-    outline: none;
 }
 
 .main-header {
@@ -111,6 +136,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
 
 }
 
@@ -163,4 +189,32 @@ body {
     color: red;
     background: white;
     border: none;
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-align: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: rgba(34, 34, 34, 0.8);
 }

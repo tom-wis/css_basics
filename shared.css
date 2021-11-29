@@ -1,0 +1,19 @@
+.button {
+    background: darkgreen;
+    color: white;
+    font: inherit;
+    border: 1.5px solid darkgreen;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: darkgreen;
+}
+
+.button:focus {
+    outline: none;
+}
