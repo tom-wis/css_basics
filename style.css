@@ -16,6 +16,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -23,9 +24,77 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+.plan {
+    background: #cdffda;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted {
+    background: limegreen;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.plan__annotation {
+    background: white;
+    color: green;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.plan__title {
+    color: darkgreen;
+}
+
+.plan__price {
+    color: grey;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: darkgreen;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
+
+.button {
+    background: darkgreen;
+    color: white;
+    font: inherit;
+    border: 1.5px solid darkgreen;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: darkgreen;
+}
+
+.button:focus {
+    outline: none;
+}
 
 .main-header {
     width: 100%;
@@ -81,6 +150,7 @@ body {
     border-bottom: 5px solid white;
 
 }
+
 .main-nav__item--cta {
     color: white;
     background: red;
