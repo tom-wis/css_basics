@@ -1,4 +1,3 @@
-
 #product-overview {
     background: url(freedom.jpg);
     width: 100%;
@@ -14,6 +13,12 @@
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .plan {
