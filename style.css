@@ -1,14 +1,19 @@
+
+
 #product-overview {
-    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), 
-    url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
-    /*all bgimg properties in one line */
+    background: url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+    /* background-image: url("freedom.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 20%; */
+    /* background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
     width: 100%;
     height: 528px;
     padding: 10px;
     margin-top: 43px;
-    border: 5px dashed red;
-    position: relative;
-
+    /* border: 5px dashed red; */
+    position: relative;   
 }
 
 .section-title {
@@ -31,7 +36,7 @@
 }
 
 .plan {
-    background: #cdffda;
+    background: #d5ffdc;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -41,28 +46,25 @@
 }
 
 .plan--highlighted {
-    background: limegreen;
+    background: #19b84c;
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-
-
 }
 
 .plan__annotation {
     background: white;
-    color: green;
+    color: #19b84c;
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 8px 8px 8px 8px;
-
+    border-radius: 8px;
 }
 
 .plan__title {
-    color: darkgreen;
+    color: #0e4f1f;
 }
 
 .plan__price {
-    color: grey;
+    color: #858585;
 }
 
 .plan--highlighted .plan__title {
@@ -70,24 +72,21 @@
 }
 
 .plan--highlighted .plan__price {
-    color: darkgreen;
+    color: #0e4f1f;
 }
 
 .plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
-.plan__features li {
+.plan__feature {
     margin: 8px 0;
-
 }
-
 
 #key-features {
-    background: red;
+    background: #ff1b68;
     margin-top: 80px;
     padding: 16px;
 }
@@ -111,12 +110,13 @@
 }
 
 .key-feature__image {
-    background: rgb(255, 137, 137);
+    background: #ffcede;
     width: 128px;
     height: 128px;
     border: 2px solid #424242;
     border-radius: 50%;
     margin: auto;
+    padding: 20px;
 }
 
 .key-feature__description {
@@ -124,24 +124,9 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
-
 }
 
-.main-header {
-    width: 100%;
-    background: #2ddf5c;
-    padding: 8px 16px;
+/* h1 {
+    font-family: sans-serif;
+} */
 
-}
-
-.main-header>div {
-    display: inline-block;
-}
-
-.main-header__brand {
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-
-
-}
