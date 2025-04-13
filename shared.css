@@ -33,7 +33,7 @@ main {
   z-index: 1;
 }
 
-.main-header > div {
+.main-header>div {
   display: inline-block;
   vertical-align: middle;
 }
@@ -211,8 +211,15 @@ main {
   outline: none;
 }
 
+.button[disabled] {
+  background: #ccc;
+  color: white;
+  border: 1.5px solid #ccc;
+  cursor: not-allowed;
+}
+
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
